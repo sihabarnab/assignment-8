@@ -1,0 +1,479 @@
+/* Author Name: Sihab
+	Author Info: sihabarnab123@gmail.com;
+*/
+/*
+====Index====
+	1.Fusce at   
+	2.Facilisis 
+	3. Ante donec 
+	4.Blandit rhoncus  
+	5.Placerat
+
+============
+*/
+
+/* Global css*/
+/* font-family: 'Roboto Slab', serif; */
+
+section {
+  padding: 50px 0;
+}
+.fa.fa-bars{
+  color: black;
+}
+h2 {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 59px;
+}
+h3{
+	 color: #fff;
+	 font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+h6{
+	color: #fff;
+	 font-family: 'Roboto Slab', serif;
+    text-align: center;
+     font-size: 25px;
+}
+p {
+    color: #fff;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn {
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.no-padding{
+	padding: 0px;
+}
+
+
+
+/*Custom css */
+
+/* */
+
+/*Navigation start*/
+
+.navbar-new{
+	background: #EDEFF1;
+	padding: 25px 0px;
+}
+.nav-item{
+	padding: 0px 10px;
+}
+.nav-link{
+ color:#161616!important;
+ padding: 10px;
+}
+.js-scroll-trigger.active {
+    background: red;
+    border-radius: 50px;
+    color: #fff!important;
+    
+}
+
+/*Navigation End */
+
+/*hero start*/
+.hero {
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero h2{
+   padding-top: 362px;
+}
+.hero h6{
+    padding-bottom: 100px;
+
+}
+
+
+/*hero end */
+
+/*Facilisis start*/
+
+.facilisis{
+	background-color: #EDEFF1;
+}
+.facilisis h2{
+	color: black;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 44px;
+    font-size: 40px;
+
+}
+.one h3 {
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+.one  p{
+	color: black;
+}
+
+
+/*Facilisis end */
+
+/*Ante start*/
+
+
+.ante{
+	background-image: url(../img/newsletter.png);
+	background-size: cover;
+	background-position: center;
+}
+.form-control {
+    background: #ffffff14;
+    position: relative;
+    border-radius: 30px;
+    padding: 26px 50px;
+    margin-bottom: 135px;
+}
+.form-control::placeholder {
+    color: white;
+}
+.form-control:focus {
+    background: #00000008;
+    
+}
+.btn-cstm {
+    position: absolute;
+    top: 183px;
+    left: 355px;
+    padding: 14px 73px;
+    border-radius: 30px;
+    border: none;
+}
+.n1 p{
+    padding-bottom: 40px;
+}
+
+/*Ante End*/
+
+
+/*Blandit start*/
+.b{
+    padding: 50px 0px; 
+}
+.b1 h4{
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+.b1 P {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+    font-size: 14px;
+
+}
+button.btn.btn-da {
+    margin: 0;
+    background: red;
+    padding: 10px 46px;
+    color: white;
+}
+.btn-pr {
+    margin: 0;
+    padding: 10px 46px;
+    background: #4B4E73;
+    color: white;
+}
+
+/*Blandit end*/
+
+/*Placerat Start*/
+.pla{
+    padding: 40px 0px;
+}
+.placerat{
+    background-color: #D75D0E;
+}
+
+/*Placerat End*/
+
+/*footer Start*/
+
+footer {
+    background: url(../img/newsletter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 116px 0px;
+}
+
+/*footer end*/
+
+
+/* Media quarry */
+
+/*mobile device */
+@media (max-width:500px) {
+  h2 {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 25px;
+}
+h6{
+    color: #fff;
+     font-family: 'Roboto Slab', serif;
+    text-align: center;
+     font-size: 14px;
+}
+.hero h2{
+   padding-top: 145px;
+}
+.hero h6{
+    padding-bottom: 100px;
+
+}
+
+.form-control {
+    background: #ffffff14;
+    position: relative;
+    border-radius: 30px;
+    padding: 18px 40px;
+    margin-bottom: 80px;
+}
+.form-control::placeholder {
+    color: white;
+}
+.form-control:focus {
+    background: #00000008;
+    
+}
+.btn-cstm {
+    position: absolute;
+    top: 167px;
+    left: 306px;
+    padding: 7px 54px;
+    border-radius: 30px;
+    border: none;
+}
+.n1 p{
+    padding-bottom: 40px;
+}
+
+.b{
+    padding: 50px 0px; 
+}
+.b1 h4 {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding-top: 15px;
+}
+.b1 P {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 14px;
+
+}
+button.btn.btn-da {
+    display: block;
+    margin: 0 auto;
+    background: red;
+    padding: 10px 46px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+section {
+    padding: 10px 0;
+}
+
+.btn-pr {
+    margin: 0 auto!important;
+    padding: 10px 46px;
+    background: #4B4E73;
+    color: white;
+
+} 
+
+footer {
+    background: url(../img/newsletter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px 0px;
+}
+}
+
+/* mediam device */
+@media(min-width: 501px) and (max-width: 767px) {
+    h2 {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 40px;
+}
+h6{
+    color: #fff;
+     font-family: 'Roboto Slab', serif;
+    text-align: center;
+     font-size: 23px;
+}
+.hero h2{
+   padding-top: 145px;
+}
+.hero h6{
+    padding-bottom: 100px;
+
+}
+
+.form-control {
+    background: #ffffff14;
+    position: relative;
+    border-radius: 30px;
+    padding: 18px 40px;
+    margin-bottom: 80px;
+}
+.form-control::placeholder {
+    color: white;
+}
+.form-control:focus {
+    background: #00000008;
+    
+}
+.btn-cstm {
+    position: absolute;
+    top: 161px;
+    left: 324px;
+    padding: 7px 74px;
+    border-radius: 30px;
+    border: none;
+}
+.n1 p{
+    padding-bottom: 40px;
+}
+
+.b{
+    padding: 50px 0px; 
+}
+.b1 h4 {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding-top: 15px;
+}
+.b1 P {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 14px;
+
+}
+button.btn.btn-da {
+    display: block;
+    margin: 0 auto;
+    background: red;
+    padding: 10px 46px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+section {
+    padding: 10px 0;
+}
+
+.btn-pr {
+    margin: 0 auto!important;
+    padding: 10px 46px;
+    background: #4B4E73;
+    color: white;
+
+} 
+
+footer {
+    background: url(../img/newsletter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px 0px;
+}
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    h2 {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.form-control {
+    background: #ffffff14;
+    position: relative;
+    border-radius: 30px;
+    padding: 18px 40px;
+    margin-bottom: 80px;
+}
+.form-control::placeholder {
+    color: white;
+}
+.form-control:focus {
+    background: #00000008;
+    
+}
+.btn-cstm {
+    position: absolute;
+    top: 205px;
+    left: 263px;
+    padding: 7px 74px;
+    border-radius: 30px;
+    border: none;
+}
+
+}
+
+@media(min-width:767px) and (max-width:992px) {
+    h2 {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+.form-control {
+    background: #ffffff14;
+    position: relative;
+    border-radius: 30px;
+    padding: 18px 40px;
+    margin-bottom: 80px;
+}
+.form-control::placeholder {
+    color: white;
+}
+.form-control:focus {
+    background: #00000008;
+    
+}
+.btn-cstm {
+     position: absolute;
+    top: 205px;
+    left: 227px;
+    padding: 8px 32px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+}
+
+
